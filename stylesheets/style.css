@@ -1,0 +1,94 @@
+/* body {
+  background: rgb(11, 60, 76);
+  background-image: url("https://s3.amazonaws.com/codementor_content/2015-Aug-week3/portfolio.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.left {
+  width: 100vw;
+}
+.my-pic{
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px black);
+}
+
+.right p {
+  color: rgb(107, 190, 49);
+} */
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+section
+{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  border: 2px solid #000;
+}
+section .slide
+{
+  position: relative;
+  background: #0f0;
+  height: 100%;
+  flex: 1;
+  border-right: 2px solid #000;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+section .slide:last-child
+{
+  border-right: none;
+}
+section .slide:hover
+{
+  flex-grow: 5;
+}
+section .slide:nth-child(1)
+{
+  background: url("https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/21462302_10156598822301679_3356757630681537632_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=XCA1KdMarnIAX-AX7M7&_nc_ht=scontent-lga3-1.xx&oh=00_AT-XcpX6fEfA5FJjMDiH6mYD3tnBBnl5QnyZBSbZuVlIdg&oe=6309638B");
+}
+section .slide:nth-child(2)
+{
+  background: url("https://s3.amazonaws.com/codementor_content/2015-Aug-week3/portfolio.jpg");
+}
+section .slide:nth-child(3)
+{
+  background: url("");
+}
+section .slide:nth-child(4)
+{
+  background: url("");
+}
+section .slide:nth-child(5)
+{
+  background: url("");
+}
+section .slide .content
+{
+  position: absolute;
+  bottom: 0;
+  margin: 40px;
+  padding: 30px;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0s;
+  transform: translateY(100px);
+}
+section .slide:hover .content
+{
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  transform: translateY(0);
+}
