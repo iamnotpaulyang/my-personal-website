@@ -1,3 +1,68 @@
-.welcome-title{
+.welcome-title a {
     text-align: center;
+    margin: 47%;
+    margin-top: 50vh;
+    color: orange;
+    font-size: 2em;
+}
+
+* {
+    margin: 0;
+  }
+  .loader {
+    transition: 3s cubic-bezier(1, 0.01, 0.29, 1.01);
+    left: 0;
+    right: 100%;
+    position: absolute; 
+    height: 100vh;
+    font-size: 5em;
+    color: orange;
+    margin-top: 20%;
+    width: 100vw;
+  }
+  
+  .loader i {
+    position: fixed;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    top: 50%;
+  color: #000f;
+  }
+  
+  body {
+    margin: 0;
+    background: rgb(2, 48, 58);
+
+  }
+  .loading:after {
+    background-color: rgb(2, 48, 58);
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    
+  }
+
+.icons {
+    position: absolute;
+    right: -80%;
+    bottom: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icons img {
+    margin: 20px;
+    height: 70px;
+    width: 70px;
+}
+
+.welcome-title{
+    position: absolute;
+    right: -50%;
+    top: 0;
+
 }
