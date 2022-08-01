@@ -8,5 +8,8 @@ All icons for social media links were used from: https://www.flaticon.com/
 Black and white notepad and Macbook and iPhone background was used from: https://www.codementor.io/learn-programming/12-important-things-to-include-in-web-dev-portfolios
 Coming soon projects background was used from: https://www.maxpixel.net/Coming-Soon-Technology-Coming-Under-Construction-2461832
 Get in touch background was used from: https://www.vectorstock.com/royalty-free-vector/white-blue-technology-background-vector-20643924
+Slides website is from Online Tutorials: https://www.youtube.com/watch?v=uDDGsq0Xf2Y
+Contact form in JavaScript is from Miha Cirman: https://www.codebrainer.com/blog/contact-form-in-javascript
+
 
 AUTHOR: PAUL YANG

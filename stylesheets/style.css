@@ -97,12 +97,3 @@ section .slide:hover .content
 * {
   margin: 0;
 }
-.loader {
-  transition: 0.3s cubic-bezier(1, 0.01, 0.29, 1.01);
-  background-color: #fa8072;
-  left: 0;
-  right: 100%;
-  position: absolute; 
-  height: 100vh;
-  z-index: 101;
-}
