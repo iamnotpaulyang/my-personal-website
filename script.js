@@ -73,7 +73,7 @@ function startLoader() {
     const loader = document.querySelector(".loader");
   
     setTimeout(function() {
-      loader.style.right = "0";
+      loader.style.right = "1";
     }, 1000);
   
     window.addEventListener("DOMContentLoaded", function(event) {
